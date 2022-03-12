@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=M+PLUS+2&family=Oswald:wght@500&family=Signika+Negative:wght@700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.father
+{
+    height: 100vh;
+    font-family: 'Luxurious Roman', cursive;
+    background-image: linear-gradient(to right top, #041d42, #002441, #002839, #002b2e, #022c23);
+
+}
+
+.homepage
+{
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: linear-gradient(to right top, #0f0f0f, #141414, #171818, #1b1b1b, #1e1f1f);
+    border-radius: 20px;
+    box-shadow: 0 10px 10px 0 black;
+    text-align: center;
+    animation:homtrans 0.75s ;
+}
+
+@keyframes homtrans  {
+    from{
+
+    top: -100%;
+
+    }
+
+
+    to{
+
+    top:10;
+
+    }
+}
+
+.welcome
+{
+
+    color: rgba(54, 54, 54, 0.829);
+    border-radius: 20px 0px 0px 20px;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath4078%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(255%2c 99%2c 71%2c 1)'%3e%3c/rect%3e%3ccircle r='20.825' cx='264.77' cy='14.6' fill='rgba(233%2c 157%2c 181%2c 0.22)'%3e%3c/circle%3e%3ccircle r='41.395' cx='342.27' cy='69.76' fill='rgba(215%2c 212%2c 212%2c 0.22)'%3e%3c/circle%3e%3ccircle r='46.1' cx='20.11' cy='487.56' fill='rgba(215%2c 212%2c 212%2c 0.22)'%3e%3c/circle%3e%3ccircle r='50.825' cx='349.28' cy='358.1' fill='rgba(233%2c 157%2c 181%2c 0.22)'%3e%3c/circle%3e%3ccircle r='15.75' cx='1101.56' cy='443.09' fill='rgba(215%2c 212%2c 212%2c 0.22)'%3e%3c/circle%3e%3ccircle r='36.875' cx='1165.34' cy='110.88' fill='rgba(233%2c 157%2c 181%2c 0.22)'%3e%3c/circle%3e%3ccircle r='40.655' cx='548.78' cy='167.39' fill='rgba(215%2c 212%2c 212%2c 0.22)'%3e%3c/circle%3e%3ccircle r='40.475' cx='832.58' cy='431.41' fill='rgba(215%2c 212%2c 212%2c 0.22)'%3e%3c/circle%3e%3ccircle r='52.695' cx='1392.57' cy='23.64' fill='rgba(215%2c 212%2c 212%2c 0.22)'%3e%3c/circle%3e%3ccircle r='40.51' cx='273.65' cy='102.07' fill='rgba(233%2c 157%2c 181%2c 0.22)'%3e%3c/circle%3e%3ccircle r='37.175' cx='202.77' cy='320.87' fill='rgba(233%2c 157%2c 181%2c 0.22)'%3e%3c/circle%3e%3ccircle r='49.365' cx='309.81' cy='247.37' fill='rgba(233%2c 157%2c 181%2c 0.22)'%3e%3c/circle%3e%3ccircle r='52.73' cx='495.43' cy='15.73' fill='rgba(215%2c 212%2c 212%2c 0.22)'%3e%3c/circle%3e%3ccircle r='32.625' cx='194.24' cy='144.14' fill='rgba(215%2c 212%2c 212%2c 0.22)'%3e%3c/circle%3e%3ccircle r='52.09' cx='1197.81' cy='351.35' fill='rgba(215%2c 212%2c 212%2c 0.22)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath4078'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 9% 2% ;
+
+}
+
+.welcome h1
+{
+    font-size: 45px;
+    margin: 3% 3% 15% 3%;
+    line-height: 90px;
+    
+}
+
+.welcome p
+{
+    font-size: 1.5rem;
+}
+.welcome .lo
+{
+    font-size: 1em;
+    margin-top: 7%;
+}
+
+@media (max-width:1250px)
+{
+    .lo
+    {
+        display: none;
+    }  
+}
+
+.register
+{
+    border-radius: 0px 20px 20px 0px;
+
+
+}
+
+.signin
+{
+    height: 70%;
+    width: 50%;
+    border: silver groove 3px;
+    border-radius: 9px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 2%;
+}
+
+.signin-alt
+{
+    height: 70%;
+    width: 70%;
+    border: silver groove 3px;
+    border-radius: 9px;
+    padding: 7%;
+    padding-top: 15%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    background-image: linear-gradient(to right top, #0f0f0f, #141414, #171818, #1b1b1b, #1e1f1f);
+    display: none;
+}
+
+@media (max-width:625px)
+{
+    .homepage
+    {
+        display: none;
+    }
+   
+    .signin-alt
+    {
+        display:block;
+        z-index: 10;
+    }
+    
+  
+
+   
+}
+.form
+{
+    display: grid;
+    gap: 30%;
+
+}
+input
+{
+    border-radius: 10px;
+    height: 140%;
+    background-color: rgba(0, 0, 0, 0.541);
+    border : hidden;
+    width: 100%;
+    outline: none;
+    padding-left: 20px;
+}
+
+
+.send
+{
+    background-color: tomato;
+    border-radius: 1px;
+    border: hidden;
+    padding-left: 0px;
+    
+}
+
+legend
+{
+    color: silver;
+    background-color: tomato;
+    margin-bottom: 25px;
+}
+
